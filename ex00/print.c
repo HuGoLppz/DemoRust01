@@ -34,7 +34,7 @@ void	quejarse(void)
 }
 
 /*
-Esto solo sirve para sacar cosas por pantalla, y como solo me dejan usar
+Esto solo sirve para sacar cosas por pantalla, y como solo dejan usar
 write, lo hago letra a letra. Para ensenar el tablero voy fila por fila
 y casilla por casilla, convierto cada altura en su numero escrito
 sumandole '0', y pongo un espacio entre medias menos despues del ultimo,

@@ -23,12 +23,12 @@ Para contarlos sin liarse, basta con recorrer la fila desde ese lado y acordarse
 
 Unos ejemplos, mirando siempre desde la izquierda:
 
-```
+
 1 2 3 4   →  se ven 4: cada uno es más alto que el anterior
 4 3 2 1   →  se ve 1: el 4 está delante y tapa a todos
 2 3 1 4   →  se ven 3: el 2, el 3 y el 4 (el 1 queda escondido detrás del 3)
 3 1 4 2   →  se ven 2: el 3 y el 4 (el 1 y el 2 quedan tapados)
-```
+
 
 Ojo, que la misma fila cambia según desde dónde se mire: `2 3 1 4` deja ver 3 edificios desde la izquierda, pero desde la derecha lo primero que aparece es el 4, que tapa a todos, así que solo se ve 1.
 
